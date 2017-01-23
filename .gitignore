@@ -7,3 +7,67 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+
+# workspace files
+RemoteSystemsTempFiles
+.metadata
+
+# web application files
+/web-app/WEB-INF
+
+*MANIFEST.*
+*.attach*
+*.diagram
+
+# IDE support files
+.classpath
+/.launch
+.project
+.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+/bin
+/.idea
+
+# default HSQL database files for production mode
+/prodDb.*
+
+# general HSQL database files
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# plugin release file
+/*.zip
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+/web-app/WEB-INF
+
+# "temporary" build files
+*/*/target
+*/target
+*target/
+/target-eclipse
+# other
+*.iws
+*.jar
+*.iml
+*.class
+
+#Servers Folder
+Servers
+
+#Sonar Properties
+sonar-project.properties
+/**/.sonar/
